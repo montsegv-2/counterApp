@@ -6,7 +6,7 @@ function listaImagenes() {
     .then((datosImagenes) => {
       console.log(datosImagenes);
 
-      const card = document.querySelector("[data-url]");
+      const card = document.querySelector("[data-ul]");
 
       datosImagenes.forEach((element) => {
         const contenido = `<li class="card">
